@@ -11,7 +11,6 @@ from tensorflow.keras.models import load_model
 from fastapi import APIRouter, FastAPI, Form
 from fastapi.responses import JSONResponse
 from io import BytesIO
-from PIL import Image
 from gtts import gTTS as gtts
 from PIL import Image, ImageDraw, ImageFont
 
