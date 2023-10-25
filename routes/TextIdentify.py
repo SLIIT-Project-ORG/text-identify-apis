@@ -15,9 +15,9 @@ from gtts import gTTS as gtts
 from PIL import Image, ImageDraw, ImageFont
 
 # Load the trained model
-model = load_model('pickle_files\\handwrite_model.h5')
-dictionary_path = "datasets\\Dictionary.xlsx"
-label_encoder_path = "pickle_files\\label_encoder.pkl"
+model = load_model('pickle_files\handwrite_model.h5')
+dictionary_path = "datasets\Dictionary.xlsx"
+label_encoder_path = "pickle_files\label_encoder.pkl"
 
 # Define the image size
 img_size_w = 50
@@ -118,7 +118,7 @@ async def text_to_image(text_input: TextInput):
     image = Image.new("RGB", (width, height), "white")
 
     # Load a font (you can change the font path and size)
-    font = ImageFont.truetype("other\\font\\iskpotab.ttf", 36)
+    font = ImageFont.truetype("other\font\iskpotab.ttf", 36)
 
     # Create a drawing object
     draw = ImageDraw.Draw(image)
