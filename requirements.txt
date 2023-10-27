@@ -10,4 +10,4 @@ scikit-learn==1.0.2
 tensorflow==2.11.0
 gTTS==2.3.2
 Pillow==9.5.0
-uvicorn==0.23.2
+uvicorn==0.22.0
